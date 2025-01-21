@@ -1,0 +1,9 @@
+TestcaseID,TestCaseDescription,TestSteps,ExpectedResults,Actual Results,Status,Remarks
+TC001,Data from Api to sanity,openlocalhost3000/studio/structure,Products in sanity displayed correctly,products in sanity displayed correctly,passsed,Worked 
+TC002,Fetch  data from sanity to allproduct page,open product page > verify products,All products displayed on the page,All products displayed on the page correctly,Passed,No issue
+TC003,Dynamic Routing to display pages dynamically,click on product from all product page,Product detail page opens of specific product,Product detail page opens of specific product,passed,Handled gracefully
+TC004,Dynamic pages of all products have all description ,Route to each page and check specific details,"All details, images place accordingly","All details, images place accordingly",passed,Worked 
+TC005,All pages Mobile Responsive,Inspect to check layout on each page,Mobile Responsive,All pages mobile responsive,passsed,Successful
+TC006,Search Functionality working,Search using the searchbar,"search occurs, gives result",No search functionality,failed,Will add soon 
+TC007,Cart Functionality,Add to Cart working on each product,Cart working properly,"Cart is working properly, add subtract ""+"" ""-"" sign not available ",passed,Will work on it
+TC008,Other Functionality,"Rating,User information stogare and recording",Should have worked,Not able to add any other thing,failed,practice practice and practice is required
